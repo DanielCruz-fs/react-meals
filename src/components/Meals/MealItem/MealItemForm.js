@@ -15,7 +15,7 @@ export const MealItemForm = (props) => {
                     defaultValue: '1'
                 }}
             ></Input>
-            <button>+ Add</button>
+            <button type="button">+ Add</button>
         </form>
     );
 };
