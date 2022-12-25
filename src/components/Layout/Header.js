@@ -4,6 +4,7 @@ import mealsImage from '../../assets/meals.jpg'
 import HeaderCartButton from './HeaderCartButton';
 
 const Header = props => {
+    console.log(':: HEADER COMPONENT ::');
     return (
         <React.Fragment>
             <header className={classes.header}>

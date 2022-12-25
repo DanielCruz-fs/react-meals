@@ -30,6 +30,7 @@ const DUMMY_MEALS = [
 ];
 
 const AvailableMeals = () => {
+    console.log(':: AVAILABLE MEALS COMPONENT NO USE CONTEXT ::');
     const mealsList = DUMMY_MEALS.map((meal) => (
         <MealItem
             key={meal.id}
